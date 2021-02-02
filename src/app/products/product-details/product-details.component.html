@@ -1,0 +1,11 @@
+<div>
+  <h1>{{ product.name }} Details</h1>
+  <hr />
+  <div class="card mt-3 p-3">
+    <h2><b>Name:</b>&nbsp;{{ product.name }}</h2>
+    <div><b>Category:</b>&nbsp;{{ product.category }}</div>
+    <div><b>Description:</b>&nbsp;{{ product.description }}</div>
+    <div><b>Price:</b>&nbsp;{{ product.price }}</div>
+  </div>
+  <button class="btn btn-primary mt-3" (click)="onGoBack()">Go Back</button>
+</div>
